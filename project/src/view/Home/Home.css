@@ -1,0 +1,19 @@
+.bgHome{
+        background: linear-gradient(
+            to right,
+            rgba(255, 255, 255, 0),
+            rgba(1, 1, 1, 0)
+          ),
+          url("https://i.ibb.co/wS5rwrX/beautiful-sensual-woman-standing-naked-with-closed-eyes-gently-touching-face-apply-skincare-product.jpg");
+        background-size: cover;
+}
+
+.imgEffectLeft {
+    -webkit-mask-image: linear-gradient(
+      to left,
+      rgba(0, 0, 0, 0.716),
+      transparent
+    );
+    mask-image: linear-gradient(to left, black, transparent);
+    color: #f47ab7;
+  }
