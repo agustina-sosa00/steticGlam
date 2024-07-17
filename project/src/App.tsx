@@ -1,14 +1,16 @@
-
-
-import './App.css'
+import "./App.css";
+import { NavBar } from "./components/NavBar/NavBar";
+import { BrowserRouter } from "react-router-dom";
 
 function App() {
-
   return (
     <>
-      <h1>stetic glam</h1>
+      <BrowserRouter>
+        <NavBar />
+        <h1>stetic glam</h1>
+      </BrowserRouter>
     </>
-  )
+  );
 }
 
-export default App
+export default App;
