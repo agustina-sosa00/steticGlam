@@ -1,5 +1,8 @@
-.logo {
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background: linear-gradient(164deg, #42d392, #647eff);
+.imgEffectRigth {
+  -webkit-mask-image: linear-gradient(to right, black, transparent);
+  mask-image: linear-gradient(to right, black, transparent);
+}
+
+.ShadowEffect {
+  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.6));
 }
