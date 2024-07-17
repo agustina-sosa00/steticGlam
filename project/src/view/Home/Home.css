@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
 .bgHome{
         background: linear-gradient(
             to right,
@@ -15,5 +16,18 @@
       transparent
     );
     mask-image: linear-gradient(to left, black, transparent);
-    color: #f47ab7;
+    color: #f9f3ad;
   }
+
+.tituloHome{
+    text-shadow: 2px 0px 10px gray;
+}
+.buttonHover{
+    transition: 0.7s;
+}
+.buttonHover:hover{
+    
+    color: #f47ab7;
+    background-color: white;
+    box-shadow: 2px 0px 10px #f47ab7;
+}

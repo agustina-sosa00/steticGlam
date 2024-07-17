@@ -8,7 +8,6 @@ function App() {
     <>
       <BrowserRouter>
         <NavBar />
-        <h1>stetic glam</h1>
         <Home/>
       </BrowserRouter>
     </>

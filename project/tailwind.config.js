@@ -2,8 +2,7 @@
 export default {
   content: ["./index.html", "./src/**/*.{ts,tsx}"],
   theme: {
-    extend: {},
-    colors: {
+    extend: { colors: {
       texto: '#000',
       // secunrdario: '#f9f3ad',
       secunrdario: '#f47ab7',
@@ -11,7 +10,10 @@ export default {
     },
     fontFamily: {
       titulo: ['"Great Vibes"', 'cursive'],
-    }
+      texto: ['"Gelasio"', 'serif'],
+      textoAbout: ['"Parisienne"', 'cursive'],
+    }},
+   
   },
   plugins: [],
 };
