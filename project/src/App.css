@@ -1,3 +1,5 @@
-.textShadow {
-  text-shadow: 2px 2px 10px rgb(177, 164, 143);
+.logo {
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(164deg, #42d392, #647eff);
 }
