@@ -3,6 +3,11 @@
   mask-image: linear-gradient(to right, black, transparent);
 }
 
+.imgEffectLow {
+  -webkit-mask-image: linear-gradient(black, transparent);
+  mask-image: linear-gradient(black, transparent);
+}
+
 .ShadowEffect {
   filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.6));
 }
