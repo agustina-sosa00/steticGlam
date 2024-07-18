@@ -1,33 +1,40 @@
 @import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
-.bgHome{
-        background: linear-gradient(
-            to right,
-            rgba(255, 255, 255, 0),
-            rgba(1, 1, 1, 0)
-          ),
-          url("https://i.ibb.co/wS5rwrX/beautiful-sensual-woman-standing-naked-with-closed-eyes-gently-touching-face-apply-skincare-product.jpg");
-        background-size: cover;
+
+.bgHome {
+    background: linear-gradient(
+        to right,
+        rgba(255, 255, 255, 0),
+        rgba(1, 1, 1, 0)
+    ),
+    url("https://i.ibb.co/wS5rwrX/beautiful-sensual-woman-standing-naked-with-closed-eyes-gently-touching-face-apply-skincare-product.jpg");
+    background-size: cover;
 }
 
 .imgEffectLeft {
     -webkit-mask-image: linear-gradient(
-      to left,
-      rgba(0, 0, 0, 0.716),
-      transparent
+        to left,
+        rgba(0, 0, 0, 0.716),
+        transparent
     );
     mask-image: linear-gradient(to left, black, transparent);
     color: #f9f3ad;
-  }
+}
 
-.tituloHome{
+.tituloHome {
     text-shadow: 2px 0px 10px gray;
 }
-.buttonHover{
+
+.buttonHover {
     transition: 0.7s;
 }
-.buttonHover:hover{
-    
+
+.buttonHover:hover {
     color: #f47ab7;
     background-color: white;
     box-shadow: 2px 0px 10px #f47ab7;
+}
+
+.imgEffectRight {
+    -webkit-mask-image: linear-gradient(to right, black, transparent);
+    mask-image: linear-gradient(to right, black, transparent);
 }
