@@ -3,15 +3,15 @@ import "./Home.css";
 
 export const Home: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex  lg:flex-row justify-start items-center ">
-      <div className=" hidden lg:flex md:w-1/2 md:h-[450px] ml-10  flex-col justify-evenly items-start">
-        <h3 className=" md:text-3xl lg:text-5xl font-texto md:tracking-wide">
+    <div className="w-full min-h-screen flex lg:flex-row justify-start items-center ">
+      <div className=" hidden lg:flex md:w-1/2 md:h-[450px]  ml-10  flex-col justify-center items-start">
+        <h3 className=" md:text-2xl lg:text-3xl ml-2 font-texto md:tracking-wide">
           Bienvenidos a
         </h3>
-        <h1 className=" text-[130px]  xl:text[150px]  2xl:text-[180px] text-secunrdario font-titulo ">
+        <h1 className=" text-[120px]  xl:text[150px]  2xl:text-[180px] text-secunrdario font-titulo ">
           Stetic Glam
         </h1>
-        <h3 className=" md:text-3xl  font-texto tracking-wider">
+        <h3 className=" md:text-2xl ml-2 font-texto tracking-wider">
           Tu estetica de confianza
         </h3>
         <div className="w-3/4 flex justify-end">
