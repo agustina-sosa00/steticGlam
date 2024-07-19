@@ -4,11 +4,6 @@ import { servicios } from "../../helpers/servicios";
 export const Service: React.FC = () => {
   return (
     <div className="w-full min-h-screen  flex flex-col justify-center items-center ">
-      <div className="w-full h-[200px] overflow-hidden flex justify-center items-center ">
-        <h1 className=" text-[100px] text-secunrdario font-titulo text-center ">
-          Nuestros Servicios
-        </h1>
-      </div>
       <div className="w-full  min-h-screen  flex flex-wrap  justify-center  ">
         {servicios.length > 0
           ? servicios.map((e, i) => {
