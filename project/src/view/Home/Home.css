@@ -1,55 +1,52 @@
-@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
 
 .bgHome {
-    background: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0),
-        rgba(1, 1, 1, 0)
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(1, 1, 1, 0)
     ),
     url("https://i.ibb.co/G9zN1vH/fondo2.jpg");
-    background-size: cover;
+  background-size: cover;
 }
 
-.bgHomeMovile{
+.bgHomeMovile {
   background: linear-gradient(
-        to right,
-        rgba(255, 255, 255, 0.291),
-        rgba(255, 255, 255, 0.291)
+      to right,
+      rgba(255, 255, 255, 0.291),
+      rgba(255, 255, 255, 0.291)
     ),
     url("https://i.ibb.co/G9zN1vH/fondo2.jpg");
-    background-size:cover;
+  background-size: cover;
 }
 
 .imgEffectLeft {
-    -webkit-mask-image: linear-gradient(
-        to left,
-        rgba(0, 0, 0, 0.716),
-        transparent
-    );
-    mask-image: linear-gradient(to left, black, transparent);
-    color: #f9f3ad;
+  -webkit-mask-image: linear-gradient(
+    to left,
+    rgba(0, 0, 0, 0.716),
+    transparent
+  );
+  mask-image: linear-gradient(to left, black, transparent);
+  color: #f9f3ad;
 }
 
-
-
 .tituloHome {
-    text-shadow: 2px 0px 10px gray;
+  text-shadow: 2px 0px 10px gray;
 }
 
 .buttonHover {
-    transition: 0.7s;
+  transition: 0.7s;
 }
 
 .buttonHover:hover {
-    color: #f47ab7;
-    background-color: white;
-    box-shadow: 2px 0px 10px #f47ab7;
+  color: #f47ab7;
+  background-color: white;
+  box-shadow: 2px 0px 10px #f47ab7;
 }
 
 .imgEffectRight {
-    -webkit-mask-image: linear-gradient(to right, black, transparent);
-    mask-image: linear-gradient(to right, black, transparent);
+  -webkit-mask-image: linear-gradient(to right, black, transparent);
+  mask-image: linear-gradient(to right, black, transparent);
 }
 
 /* RESPONSIVE */
-
