@@ -5,7 +5,10 @@ export interface IServicios {
   sesion: string;
   beneficios: string;
   image: string;
+  mensaje: string
 }
+
+// 
 export const servicios: IServicios[] = [
   {
     name: "Reduccion Abdominal",
@@ -15,6 +18,7 @@ export const servicios: IServicios[] = [
     sesion: "6 sesiones (1 vez por semana).",
     beneficios: "Piel más firme, moldeado del cuerpo, perdida de centrímetros.",
     image: "https://i.ibb.co/NtQgYDK/quema-grasa.webp",
+    mensaje: "https://wa.me/1130768425?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20reduccion%20abdominal."
   },
   {
     name: "Levantamiento de Glúteos + Piernas",
@@ -25,6 +29,7 @@ export const servicios: IServicios[] = [
     beneficios:
       "Elimina adiposidad localizada, reduce celulitis y flacidez, aumento de la masa muscular.",
     image: "https://i.ibb.co/54P8Ywh/e5db591de4fb7c7b0d5563544b6c9d15.jpg",
+    mensaje: "https://wa.me/1130768425?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20levantamiento%20de%20glúteos%20y%20piernas."
   },
   {
     name: "Depilacion Láser Unisex",
@@ -35,5 +40,6 @@ export const servicios: IServicios[] = [
     beneficios:
       "Aclara manchas en la piel, estimula la formacion de colágeno en la piel,no hace falta rasurarte.",
     image: "https://i.ibb.co/hsYNLBq/piernas-depila.jpg",
+    mensaje: "https://wa.me/1130768425?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20depilacion%20láser."
   },
 ];

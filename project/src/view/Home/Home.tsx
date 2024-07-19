@@ -3,7 +3,7 @@ import "./Home.css";
 
 export const Home: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex lg:flex-row justify-start items-center ">
+    <div className="w-full min-h-screen flex lg:flex-row justify-start items-center imgEffectBotom">
       <div className=" hidden lg:flex md:w-1/2 md:h-[450px]  ml-10  flex-col justify-center items-start">
         <h3 className=" md:text-2xl lg:text-3xl ml-2 font-texto md:tracking-wide">
           Bienvenidos a

@@ -48,5 +48,9 @@
   -webkit-mask-image: linear-gradient(to right, black, transparent);
   mask-image: linear-gradient(to right, black, transparent);
 }
+.imgEffectBotom {
+  -webkit-mask-image: linear-gradient(to bottom, black,black,black, transparent);
+  mask-image: linear-gradient(to bottom, black, black,black,transparent);
+}
 
 /* RESPONSIVE */
