@@ -9,9 +9,19 @@
 }
 
 .ShadowEffect {
-  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.6));
+  filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.5));
 }
 
 #service {
   scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
+}
+
+.fondoAbout {
+  background: linear-gradient(
+      rgba(247, 246, 246, 0.984),
+      rgba(255, 255, 255, 0.472)
+    ),
+    url("./assets/local.jpg");
+
+  background-size: cover;
 }
