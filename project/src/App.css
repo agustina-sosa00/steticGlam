@@ -11,3 +11,7 @@
 .ShadowEffect {
   filter: drop-shadow(10px 0px 10px rgba(0, 0, 0, 0.6));
 }
+
+#service {
+  scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
+}
