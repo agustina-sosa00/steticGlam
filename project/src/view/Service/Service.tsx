@@ -3,7 +3,10 @@ import { servicios } from "../../helpers/servicios";
 
 export const Service: React.FC = () => {
   return (
-    <div className="w-full min-h-screen  flex flex-col justify-center items-center ">
+    <div
+      id="service"
+      className="w-full min-h-screen  flex flex-col justify-center items-center  "
+    >
       <div className="w-full  min-h-screen  flex flex-wrap  justify-center  ">
         {servicios.length > 0
           ? servicios.map((e, i) => {

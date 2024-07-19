@@ -1,7 +1,8 @@
 import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
-import { Service } from "./components/Service/Service";
+import { Service } from "./view/Service/Service";
 import Home from "./view/Home/Home";
+import { Footer } from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <NavBar />
       <Home />
       <Service />
+      <Footer />
     </>
   );
 }
