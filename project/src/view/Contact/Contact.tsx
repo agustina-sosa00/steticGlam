@@ -8,7 +8,7 @@ export const Contact: React.FC = () => {
 
       </div>
       <div>
-        <img src="https://i.ibb.co/vJYqGbL/Whats-App-Image-2024-07-19-at-17-00-21.jpg" alt="" className='w-[150] h-[150px] '/>
+        <img src="https://i.ibb.co/vJYqGbL/Whats-App-Image-2024-07-19-at-17-00-21.jpg" alt=""/>
       </div>
     </div>
   )
