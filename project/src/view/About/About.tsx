@@ -3,7 +3,7 @@ import React from "react";
 export const About: React.FC = () => {
   return (
     <>
-      <div className="w-full min-h-screen flex flex-col items-center justify-center mb-5 fondoAbout ">
+      <div className="w-full min-h-screen flex flex-col items-center justify-center mb-5  ">
         <h1 className=" text-5xl sm:ext-6xl  md:text-7xl  xl:text[50px]  2xl:text-[80px] text-secunrdario font-titulo border-b-4  border-secunrdario ">
           Sobre SteticGlam
         </h1>
@@ -21,6 +21,7 @@ export const About: React.FC = () => {
             de nuestros clientes mediante servicios de alta calidad, adaptados a
             sus necesidades individuales.
           </p>
+          <button></button>
         </div>
       </div>
     </>
