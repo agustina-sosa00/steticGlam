@@ -4,6 +4,7 @@ import { Service } from "./view/Service/Service";
 import Home from "./view/Home/Home";
 import { Footer } from "./components/Footer/Footer";
 import { About } from "./view/About/About";
+import { Contact } from "./view/Contact/Contact";
 
 function App() {
   return (
@@ -12,7 +13,7 @@ function App() {
       <Home />
       <About />
       <Service />
-
+      <Contact />
       <Footer />
     </>
   );
