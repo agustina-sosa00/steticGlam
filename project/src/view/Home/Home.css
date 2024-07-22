@@ -13,10 +13,21 @@
 .bgHomeMovile {
   background: linear-gradient(
       to right,
-      rgba(255, 255, 255, 0.291),
-      rgba(255, 255, 255, 0.291)
+      rgba(255, 255, 255, 0.8),
+      rgba(255, 255, 255, 0.8)
     ),
-    url("https://i.ibb.co/hc3wnRY/fondo2.jpg");
+    url("https://i.ibb.co/kqK5XxN/fondo2movile.jpg");
+  background-size: cover;
+  
+}
+.bgHomeMovile2 {
+  background: linear-gradient(
+      to bottom,
+      #ffc6e2,
+      rgb(255, 255, 255)
+     
+    ),
+    url("https://i.ibb.co/kqK5XxN/fondo2movile.jpg");
   background-size: cover;
 }
 
@@ -50,8 +61,8 @@
   mask-image: linear-gradient(to right, black, transparent);
 }
 .imgEffectBotom {
-  -webkit-mask-image: linear-gradient(to bottom, black,black,black,black, transparent);
-  mask-image: linear-gradient(to bottom, black, black,black,black,transparent);
+  -webkit-mask-image: linear-gradient(to bottom, black,black,black,black,black,black, transparent);
+  mask-image: linear-gradient(to bottom, black, black,black,black,black,black,transparent);
 }
 
 /* RESPONSIVE */
