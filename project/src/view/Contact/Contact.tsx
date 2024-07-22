@@ -42,7 +42,7 @@ export const Contact: React.FC = () => {
             />
             <a
               className="md:text-md lg:text-xl xl:text-2xl font-bold text-pink-600 ml-2 hover:scale-110 hover:text-secunrdario duration-1000 "
-              href="###"
+              href="https://www.instagram.com/steticglam__/"
             >
               @steticglam__
             </a>
