@@ -5,8 +5,11 @@ import Ubi from "../../assets/address.svg";
 
 export const Contact: React.FC = () => {
   return (
-    <div className="w-full min-h-screen flex flex-col items-center">
-      <div className="w-full  flex justify-center items-center m-5 lg:m-14 xl:m-20">
+    <div
+      id="contacto"
+      className="w-full min-h-screen flex flex-col items-center mt-20"
+    >
+      <div className="w-full  flex justify-center items-center m-5 lg:m-14 xl:m-16">
         <h1 className="text-4xl md:text-[70px] lg:text-[80px] xl:text-[100px] text-secunrdario font-titulo ">
           Contactos
         </h1>
@@ -25,29 +28,34 @@ export const Contact: React.FC = () => {
           <div className="w-full md:w-1/3 flex flex-col items-center mb-3">
             <img src={WP} alt="" className="w-8 md:w-10 lg:w-12 xl:w-14  " />
             <a
-              className="md:text-md   xl:text-2xl font-bold text-green-600 ml-2 "
-              href="###"
+              className="md:text-md   xl:text-2xl font-bold text-green-600 ml-2 hover:scale-110 hover:text-secunrdario duration-1000"
+              href="https://wa.me/541130768825"
             >
               +54 01130768825
             </a>
           </div>
           <div className="w-full md:w-1/3 flex flex-col items-center mb-3">
-            <img src={IG} alt="" className="w-8 md:w-10 lg:w-12 xl:w-14  " />
+            <img
+              src={IG}
+              alt=""
+              className="w-8 md:w-10 lg:w-12 xl:w-14 opacity-70  "
+            />
             <a
-              className="md:text-md lg:text-xl xl:text-2xl font-bold text-pink-600 ml-2  "
+              className="md:text-md lg:text-xl xl:text-2xl font-bold text-pink-600 ml-2 hover:scale-110 hover:text-secunrdario duration-1000 "
               href="###"
             >
               @steticglam__
             </a>
           </div>
           <div className="w-full md:w-1/3 flex flex-col items-center mb-3">
-            <img src={Ubi} alt="" className="w-8 md:w-10 lg:w-12 xl:w-14  " />
-            <a
-              className="md:text-md lg:text-xl xl:text-2xl font-bold text-red-600 ml-2  "
-              href="###"
-            >
+            <img
+              src={Ubi}
+              alt=""
+              className="w-8 md:w-10 lg:w-12 xl:w-14 opacity-70 "
+            />
+            <span className="md:text-md lg:text-xl xl:text-2xl font-bold text-red-600 ml-2 opacity-70 ">
               Amberes 2649
-            </a>
+            </span>
           </div>
         </div>
       </div>
