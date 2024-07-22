@@ -15,19 +15,20 @@ export const Home: React.FC = () => {
           <h3 className=" md:text-2xl ml-2 font-texto tracking-wider">
             Tu estetica de confianza
           </h3>
-         </div> 
-          <div className="w-3/4 flex justify-end">
-            <button className="w-[140px] h-[50px] text-center rounded bg-secunrdario text-primario text-xl buttonHover tracking-wide font-semibold">
-              Servicios
-            </button>
-          </div>
-          
+        </div>
+        <div className="w-3/4 flex justify-end">
+          <button className="w-[140px] h-[50px] text-center rounded bg-secunrdario text-primario text-xl buttonHover tracking-wide font-semibold">
+            Servicios
+          </button>
+        </div>
       </div>
-      
+
       <div className="hidden lg:flex lg:w-1/2 min-h-screen bgHome imgEffectLeft"></div>
       {/* para movile cambiar la imagen a una mas chica */}
       <div className=" w-[100%] min-h-screen bgHomeMovile flex flex-col justify-center items-start lg:hidden">
-        <h3 className="text-2xl tracking-wide mt-40 mb-5 ml-5">Bienvenidos a</h3>
+        <h3 className="text-2xl tracking-wide mt-40 mb-5 ml-5">
+          Bienvenidos a
+        </h3>
         <h1 className="text-secunrdario font-titulo text-[80px] md:text-[100px] mb-5 ml-5">
           Stetic Glam
         </h1>
