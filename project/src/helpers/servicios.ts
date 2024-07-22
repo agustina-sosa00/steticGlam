@@ -31,7 +31,7 @@ export const servicios: IServicios[] = [
       "Elimina adiposidad localizada, reduce celulitis y flacidez, aumento de la masa muscular.",
     image: "https://i.ibb.co/54P8Ywh/e5db591de4fb7c7b0d5563544b6c9d15.jpg",
     mensaje:
-      "https://wa.me/1130768425?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20levantamiento%20de%20glúteos%20y%20piernas.",
+      "https://wa.me/541130768825?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20levantamiento%20de%20glúteos%20y%20piernas.",
   },
   {
     name: "Depilacion Láser Unisex",
@@ -43,6 +43,6 @@ export const servicios: IServicios[] = [
       "Aclara manchas en la piel, estimula la formacion de colágeno en la piel,no hace falta rasurarte.",
     image: "https://i.ibb.co/hsYNLBq/piernas-depila.jpg",
     mensaje:
-      "https://wa.me/1130768425?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20depilacion%20láser.",
+      "https://wa.me/541130768825?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20depilacion%20láser.",
   },
 ];
