@@ -64,7 +64,6 @@ export const Contact: React.FC = () => {
           src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3278.788096026798!2d-58.457838225204924!3d-34.73573536448058!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccdddae39272d%3A0xe295b1a80aaac2c8!2sAmberes%202649%2C%20B1821AYA%20Ingeniero%20Budge%2C%20Provincia%20de%20Buenos%20Aires!5e0!3m2!1ses-419!2sar!4v1721415851255!5m2!1ses-419!2sar"
           className="w-full h-[200px] md:w-[760px] md:h-[250px] lg:w-[1020px] lg:h-[350px] xl:w-[1200px] xl:h-[450px] mb-10"
           loading="lazy"
-          referrerpolicy="no-referrer-when-downgrade"
         ></iframe>
       </div>
     </div>
