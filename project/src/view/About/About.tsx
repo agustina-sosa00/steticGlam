@@ -3,7 +3,10 @@ import React from "react";
 export const About: React.FC = () => {
   return (
     <>
-      <div className="w-full min-h-screen flex flex-col items-center justify-center mb-5  ">
+      <div
+        id="about"
+        className="w-full min-h-screen flex flex-col items-center justify-center mb-5  "
+      >
         <h1 className=" text-5xl sm:ext-6xl  md:text-7xl  xl:text[50px]  2xl:text-[80px] text-secunrdario font-titulo border-b-4  border-secunrdario ">
           Sobre SteticGlam
         </h1>

@@ -13,13 +13,13 @@ export const Service: React.FC = () => {
               return (
                 <div
                   key={i}
-                  className="w-full xl:h-[400px] flex flex-col md:flex-row justify-evenly items-center mb-5 overflow-hidden  "
+                  className="w-full xl:h-[400px] flex flex-col md:flex-row justify-evenly items-center mb-5 overflow-hidden "
                 >
                   <div className=" hidden md:block w-1/2 max-h-[400px] overflow-hidden">
                     <img
                       src={e.image}
                       alt=""
-                      className=" w-full imgEffectRight"
+                      className="w-full imgEffectRight"
                     />
                   </div>
                   <div className="w-full md:hidden ">

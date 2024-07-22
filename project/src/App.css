@@ -15,6 +15,12 @@
 #service {
   scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
 }
+#contacto {
+  scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
+}
+#about {
+  scroll-margin-top: 5rem; /* Ajusta este valor según la altura del NavBar */
+}
 
 .fondoAbout {
   background: linear-gradient(
