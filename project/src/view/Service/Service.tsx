@@ -13,7 +13,7 @@ export const Service: React.FC = () => {
               return (
                 <div
                   key={i}
-                  className="w-full xl:h-[350px] flex flex-col md:flex-row justify-evenly items-center mb-5 overflow-hidden  "
+                  className="w-full xl:h-[400px] flex flex-col md:flex-row justify-evenly items-center mb-5 overflow-hidden  "
                 >
                   <div className=" hidden md:block w-1/2 max-h-[400px] overflow-hidden">
                     <img
@@ -43,6 +43,11 @@ export const Service: React.FC = () => {
                     <p className="p-2 text-md xl:text-xl font-medium text-center md:text-start ">
                       {e.beneficios}
                     </p>
+                    <div className="w-full flex justify-center md:justify-end">
+                      <button className="btn md:mr-10">
+                        <a href={e.mensaje}>Reservar</a>
+                      </button>
+                    </div>
                   </div>
                 </div>
               );
