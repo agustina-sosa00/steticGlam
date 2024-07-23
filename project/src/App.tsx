@@ -1,14 +1,20 @@
 import "./App.css";
 import { NavBar } from "./components/NavBar/NavBar";
-import { BrowserRouter } from "react-router-dom";
+import { Service } from "./view/Service/Service";
+import Home from "./view/Home/Home";
+import { Footer } from "./components/Footer/Footer";
+import { About } from "./view/About/About";
+import { Contact } from "./view/Contact/Contact";
 
 function App() {
   return (
     <>
-      <BrowserRouter>
-        <NavBar />
-        <h1>stetic glam</h1>
-      </BrowserRouter>
+      <NavBar />
+      <Home />
+      <About />
+      <Service />
+      <Contact />
+      <Footer />
     </>
   );
 }
