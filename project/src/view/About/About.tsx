@@ -8,7 +8,7 @@ export const About: React.FC = () => {
         className="w-full min-h-screen flex flex-col items-center justify-center mb-5 "
       >
         <h1 className=" text-5xl sm:text-6xl  md:text-7xl  xl:text[50px]  2xl:text-[80px] text-secunrdario font-titulo border-b-4  border-secunrdario  mt-10">
-          Sobre SteticGlam
+          Sobre Stetic Glam
         </h1>
 
         <div className="w-full ml-5 mr-5 md:2/3 lg:w-1/2 h-[500px] sm:h-[350px] md:h-[300px] lg:h-96 flex flex-col justify-evenly items-center ">
