@@ -14,7 +14,7 @@ export const About: React.FC = () => {
         <div className="w-full ml-5 mr-5 md:2/3 lg:w-1/2 h-[500px] sm:h-[350px] md:h-[300px] lg:h-96 flex flex-col justify-evenly items-center ">
           <p className=" text-lg sm:text-[20px]  md:text-xl   xl:text[50px]  xl:text-2xl  font-medium text-center  text-gray-800 p-5">
             Stetic Glam es una estética dirigida por <span>Yohana Campos</span>,
-            una profecional que tiene una dedicación especial hacia sus
+            una profesional que tiene una dedicación especial hacia sus
             clientes, quienes son atendidos con cuidado y de manera exclusiva
             por ella.
           </p>
