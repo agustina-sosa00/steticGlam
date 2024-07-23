@@ -29,9 +29,9 @@ export const Contact: React.FC = () => {
             <img src={WP} alt="" className="w-8 md:w-10 lg:w-12 xl:w-14  " />
             <a
               className="md:text-md   xl:text-2xl font-bold text-green-600 ml-2 hover:scale-110 hover:text-secunrdario duration-1000"
-              href="https://wa.me/541130768825"
+              href="https://wa.me/541130768425"
             >
-              +54 01130768825
+              +54 01130768425
             </a>
           </div>
           <div className="w-full md:w-1/3 flex flex-col items-center mb-3">
