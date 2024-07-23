@@ -10,14 +10,14 @@ export const Contact: React.FC = () => {
       className="w-full min-h-screen flex flex-col items-center mt-20"
     >
       <div className="w-full  flex justify-center items-center m-5 lg:m-14 xl:m-16">
-        <h1 className="text-4xl md:text-[70px] lg:text-[80px] xl:text-[100px] text-secunrdario font-titulo ">
+        <h1 className="text-5xl md:text-[70px] lg:text-[80px] xl:text-[100px] text-secunrdario font-titulo ">
           Contactos
         </h1>
       </div>
-      <div className="w-3/4 flex flex-col justify-center items-center  rounded-xl ">
+      <div className="w-full md:w-3/4 flex flex-col justify-center items-center  rounded-xl ">
         <div className="w-full flex flex-col justify-center items-center ">
-          <div className="w-3/4  flex items-center">
-            <p className="md:text-lg lg:text-xl xl:text-2xl font-medium text-black text-center  ">
+          <div className="w-full md:w-3/4  flex items-center">
+            <p className="md:text-lg lg:text-xl xl:text-2xl font-medium text-black text-center p-2 md:p-0 ">
               Para agendar tu turno con Yohana Campos, puedes contactarnos a
               través de los siguientes medios
             </p>
