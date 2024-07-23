@@ -36,11 +36,11 @@ export const servicios: IServicios[] = [
   {
     name: "Depilacion Láser Unisex",
     description:
-      "Tratamiento que se elimina el vello de forma permanente mediante la emisión lumínica del láser, eliminando entre el 20% y 80% del vello. Se puede realizar en todo el cuerpo, tanto en hombres como en mujeres. Es indoloro y no quema. Apto para pieles con foliculitis",
+      "Tratamiento que se elimina el vello de forma permanente mediante la emisión lumínica del láser, eliminando entre el 20% y 80% del vello. Se puede realizar en todo el cuerpo, tanto en hombres como en mujeres. Es indoloro y no quema. Apto para pieles con foliculitis.",
     tiempoSesion: "",
     sesion: "1 vez por mes",
     beneficios:
-      "Aclara manchas en la piel, estimula la formacion de colágeno en la piel,no hace falta rasurarte.",
+      "Aclara manchas en la piel, estimula la formación de colágeno en la piel, no hace falta rasurarte.",
     image: "https://i.ibb.co/hsYNLBq/piernas-depila.jpg",
     mensaje:
       "https://wa.me/541130768825?text=Quisiera%20recibir%20mas%20información%20del%20servicio%20de%20depilacion%20láser.",
